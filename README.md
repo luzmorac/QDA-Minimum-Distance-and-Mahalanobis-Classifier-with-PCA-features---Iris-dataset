@@ -19,29 +19,21 @@ This project addresses the classification problem of the Iris dataset using dime
 
 Principal Component Analysis (PCA) was applied to reduce the feature space to two principal components, which facilitates visualization and improves classifier performance.
 
-### Cross-Validation and Test Accuracy
-
-Cross-validation techniques were used to evaluate the performance of the classifiers in terms of training and testing accuracy.
-
 ## Implemented Classifiers
-
-### 1. **Minimum Distance Classifier**
-A minimum distance classifier was implemented using Euclidean distance. The classifier's performance was evaluated using cross-validation, and the results were presented in a confusion matrix.
-
-- **Accuracy (Training - Cross Validation):** `0.858`
-- **Accuracy (Test):** `0.933`
-
-### 2. **Mahalanobis Distance Classifier**
-A Mahalanobis distance-based classifier was applied to improve accuracy by considering correlations between features.
-
-- **Accuracy (Training - Cross Validation):** `0.916`
-- **Accuracy (Test):** `0.366`
-
-### 3. **Quadratic Discriminant Analysis (QDA)**
+### 1. **Quadratic Discriminant Analysis (QDA)**
 Finally, Quadratic Discriminant Analysis (QDA) was implemented, allowing classification by considering different shapes of class distributions.
 
-- **Accuracy (Training - Cross Validation):** `0.916`
-- **Accuracy (Test):** `0.900`
+- **Accuracy (Test):** `0.93`
+
+### 2. **Minimum Distance Classifier**
+A minimum distance classifier was implemented using Euclidean distance. The classifier's performance was evaluated using cross-validation, and the results were presented in a confusion matrix.
+
+- **Accuracy (Test):** `0.82`
+
+### 3. **Mahalanobis Distance Classifier**
+A Mahalanobis distance-based classifier was applied to improve accuracy by considering correlations between features.
+
+- **Accuracy (Test):** `0.80`
 
 ## Results
 
